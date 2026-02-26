@@ -1,0 +1,51 @@
+body{
+    font-family: Arial;
+    background: #f0f4f8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:white;
+    width:500px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.time-box{
+    background:#f5f5f5;
+    padding:15px;
+    border-radius:8px;
+    margin-bottom:15px;
+}
+
+.buttons{
+    margin-bottom:15px;
+}
+
+button{
+    padding:8px 15px;
+    margin-right:10px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+#checkBtn{
+    background:#ff5c5c;
+    color:white;
+}
+
+#cancelBtn{
+    background:#ddd;
+}
+
+.info{
+    background:#fafafa;
+    padding:10px;
+    border-radius:8px;
+    margin-bottom:10px;
+}
